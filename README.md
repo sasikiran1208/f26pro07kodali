@@ -17,4 +17,6 @@ An Express.js web application using the Pug template engine to generate dynamic 
 3. Open `http://localhost:3000` in a browser.
 
 ## Deployment
-Hosted on Render. Deployment URL will be added after setup.
+
+Live Render server:
+https://f26pro07kodali.onrender.com/
