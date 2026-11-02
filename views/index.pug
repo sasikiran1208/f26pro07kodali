@@ -6,6 +6,9 @@ block content
   p Welcome to my Web Applications Assignment 10
   button(type="button", class="btn btn-secondary", onclick="reduce()") Sample Button
   div#use Take some away
+  p
+    a(href="/gardens") View Gardens Search Results
+
 
   script.
     let current = 11;
@@ -19,3 +22,4 @@ block content
       document.getElementById("use").textContent =
         `Reduced by ${quantity} to ${current}`;
     }
+    
