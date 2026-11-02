@@ -9,9 +9,14 @@ block content
 
   div.container-fluid
     div.row
-      each garden in results
-        div.col-sm-2
+      each garden, index in results
+        div.col-sm-2(onclick=`buy(${index})`)
           h4= garden.name
           p Location: #{garden.location}
           p Area: #{garden.areaAcres} acres
           p Opened: #{garden.yearOpened}
+
+  script.
+    function buy(index) {
+      alert(`You purchased item ${index}`);
+    }
