@@ -20,3 +20,13 @@ An Express.js web application using the Pug template engine to generate dynamic 
 
 Live Render server:
 https://f26pro07kodali.onrender.com/
+
+## Resource Class: Gardens
+
+The resource class selected for this assignment is Gardens.
+
+Attributes:
+- name (String): Name of the garden
+- location (String): Location of the garden
+- areaAcres (Number): Garden area in acres
+- yearOpened (Number): Year the garden opened
